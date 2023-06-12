@@ -3,7 +3,7 @@
 Answer the following questions below:
 
 - What are important differences between Python and JavaScript?
-**python is backend. Deals with server, handles gets and request.  javascript is frontend. Deals with UI and manipulating the DOM**
+**python is backend. Stores data, deals with post and get request.  javascript is frontend. Deals with UI and manipulating the DOM**
 
 - Given a dictionary like ``{"a": 1, "b": 2}``: , list two ways you
   can try to get a missing key (like "c") *without* your programming
@@ -14,7 +14,7 @@ d["c"] = 3
 print(d) 
 ```
 
-2.  
+1.  
 ```python
 d.get("c", 3)
 ```
@@ -29,7 +29,7 @@ d.get("c", 3)
 *testing mutiple things in app toghether to see if they cohesivly work
 
 - What is the role of web application framework, like Flask?
-**tells you how and what to respond to**
+**Is like a toolbox for developers, making building applications less time consuming with prewritten code**
 
 - You can pass information to Flask either as a parameter in a route URL
   (like '/foods/pretzel') or using a URL query param (like
@@ -50,7 +50,9 @@ using the root params
 
 - What is a cookie and what kinds of things are they commonly used for?
 **cookies are small peices of data that is stored in browser**
-
+# they are used for 
+- tracking data and analytics to then show specific information to user based on their tracked data
+- User authentifacation, so you can stay logged in while traversing through page
 - What is the session object in Flask?
 **Its a magic dictionary that stores info for current browser, perserves type and signed so user cant modify data**
 
